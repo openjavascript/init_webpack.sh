@@ -1,16 +1,10 @@
 
-echo "unzip bower and node compoennts"
-unzip -o bower_node_components.zip
-echo "unzip bower and node compoennts done"
-echo ""
-
 echo "clean proxy"
 npm config rm proxy
 npm config rm https-proxy
 export https_proxy="" http_proxy="" 
 echo "clean proxy done"
 echo ""
-
 
 if which qnpm > /dev/null; then
     echo 'qnpm exists, ignore install'
@@ -20,7 +14,6 @@ else
     echo "install qnpm done"
 fi
 echo ""
-
 
 if which bower > /dev/null; then
     echo 'bower exists, ignore install'
