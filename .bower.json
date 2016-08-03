@@ -1,11 +1,11 @@
 {
   "name": "mv.init_webpack.sh",
   "homepage": "https://github.com/openjavascript/mv.init_webpack.sh",
-  "version": "0.0.4",
-  "_release": "0.0.4",
+  "version": "0.0.6",
+  "_release": "0.0.6",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.4",
+    "tag": "0.0.6",
     "commit": "0bcfa867b1f63f631edefdd9ed9eeb71e9b191da"
   },
   "_source": "https://github.com/openjavascript/mv.init_webpack.sh.git",
